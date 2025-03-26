@@ -113,7 +113,7 @@ const Navbar = () => {
 
             <Link href={'/'} className='flex items-center gap-3 '>
                 <Image src='/image/aylogo2.png' width={70} height={70} alt='logo' className=''/>
-                <h3 className='font-extrabold text-base logo-text-color '>AYVisualZ</h3>
+                <h3 className='font-extrabold text-xl logo-text-color '>AYVisualZ</h3>
                 
             </Link>
 

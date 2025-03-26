@@ -28,7 +28,7 @@ const Hero = () => {
     <>
     <div className='bg-cover bg-no-repeat bg-center h-screen lg:h-[80vh] font-delius flex flex-col items-center relative' style={{ backgroundImage: "url('/image/aylogo2.png')"}}>
         <div className="absolute top-0 left-0 w-full h-full bg-black/10"></div>
-        <h1 className='text-3xl lg:text-5xl font-bold pt-32 lg:pt-5 text-amber-400/90 font-delius '>Welcome </h1>
+        <h1 className='text-5xl font-bold pt-36 lg:pt-5 text-amber-400/90 font-delius '>Welcome </h1>
 
         <motion.div 
           initial={{opacity:0, y:-50 }}
@@ -37,8 +37,8 @@ const Hero = () => {
 
 
           className=" relative pt-24 lg:pt-16 text-center ">
-          <h1 className="text-3xl lg:text-5xl text-amber-400/90 font-bold">Capturing Moments,</h1>
-          <h1 className="text-3xl lg:text-5xl text-amber-400/90 font-bold pt-2">
+          <h1 className="text-4xl lg:text-5xl text-amber-400/90 font-bold">Capturing Moments,</h1>
+          <h1 className="text-4xl lg:text-5xl text-amber-400/90 font-bold pt-2">
             <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
           </h1>
         
